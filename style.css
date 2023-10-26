@@ -190,6 +190,11 @@
 
 .laptopApp {
     width: 100%;
+    transition: all 10s ease;
+}
+
+.laptopScreen:hover .laptopApp {
+    transform: translateY(-100%);
 }
 
 .laptopScreen::-webkit-scrollbar {
